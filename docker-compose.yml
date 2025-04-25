@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  app-foyer:
+    image: cherifyas/yassminecherif-g3-foyer:1.0.0
+    restart: on-failure
+    ports:
+      - "8089:8089"
+    environment:
+      SPRING_APPLICATION_JSON: '{
+        "spring.datasource.url": "jdbc:h2:file:./Database/Data/Foyer;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE",
+        "spring.datasource.driver-class-name": "org.h2.Driver",
+        "spring.datasource.username": "Foyer",
+        "spring.datasource.password": "",
+        "spring.jpa.properties.hibernate.dialect": "org.hibernate.dialect.H2Dialect",
+        "spring.jpa.hibernate.ddl-auto": "update",
+        "server.port": "8089",
+        "server.servlet.context-path": "/Foyer"
+      }'
+    stdin_open: true
+    tty: true

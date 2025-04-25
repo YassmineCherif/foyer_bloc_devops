@@ -1,0 +1,11 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™šÿüÿÿÿÿ
+k
+java:S3655 "PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Ñ«šÓıÿÿÿÿ
+f
+java:S36558"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(”‰Ñó
+f
+java:S3655C"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(¯œ
+V	java:S125R"<This block of commented-out lines of code should be removed.(şÀ¼îùÿÿÿÿ
+g
+java:S1128"QRemove this unused import 'tn.esprit.spring.DAO.Repositories.EtudiantRepository'.(Ãçó
